@@ -3,7 +3,7 @@ const axios = require("axios");
 
 const app = express();
 
-const BACKEND_URL = "http://localhost:3000/api/message";
+const BACKEND_URL = "http://10.1.0.4:3000/api/message";
 
 app.get("/", async (req, res) => {
 
